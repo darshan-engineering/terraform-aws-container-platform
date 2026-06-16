@@ -1,0 +1,33 @@
+# Local directory for data source plugins and modules
+.terraform/
+
+# Local log files
+*.log
+*.terraform.log
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all terraform state files by default
+*.tfstate
+*.tfstate.*
+
+# Exclude plan files, which may contain sensitive data
+*.tfplan
+*.tfplan.binary
+
+# Exclude variable files containing secret values
+*.tfvars
+*.tfvars.json
+
+# Override: Allow override files if you explicitly use them
+*.terraform.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include hcl lock files in version control (Recommended by HashiCorp)
+!.terraform.lock.hcl
+*.binary

@@ -1,0 +1,1 @@
+route53_zone_id = "" # The one you get in the output after running bootstrap dir
